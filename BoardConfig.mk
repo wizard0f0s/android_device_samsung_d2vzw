@@ -26,16 +26,6 @@
 # inherit from the proprietary version
 -include vendor/samsung/d2vzw/BoardConfigVendor.mk
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := d2vzw
-
 # Kernel
-<<<<<<< HEAD
 TARGET_KERNEL_CONFIG        := d2vzw_defconfig
 
-ifeq ($(USE_KEXEC),1)
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/samsung/d2vzw/kexec-releasetools/ota_from_target_files
-endif
-=======
-TARGET_KERNEL_CONFIG        := d2vzw_defconfig
->>>>>>> fd19e70266bb56b40df270801c81555f94ff9f1a
