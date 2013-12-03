@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Boolean to enable adb by default on a per-device basis -->
+  <bool name="config_enableAdbByDefault">true</bool>
+</resources>
